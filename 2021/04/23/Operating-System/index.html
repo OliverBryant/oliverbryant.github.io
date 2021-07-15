@@ -1399,7 +1399,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="四、调度算法"><a href="#四、调度算法" class="headerlink" title="四、调度算法"></a>四、调度算法</h3><ol>
+<h4 id="四、调度算法"><a href="#四、调度算法" class="headerlink" title="四、调度算法"></a>四、调度算法</h4><ol>
 <li><p>先来先服务（FCFS）：</p>
 <ul>
 <li>算法思想：主要从“公平”的角度考虑</li>
@@ -1519,7 +1519,7 @@
 </ul>
 </li>
 </ol>
-<h2 id="三、进程同步"><a href="#三、进程同步" class="headerlink" title="三、进程同步"></a>三、进程同步</h2><h3 id="一、进程同步的基本概念"><a href="#一、进程同步的基本概念" class="headerlink" title="一、进程同步的基本概念"></a>一、进程同步的基本概念</h3><ol>
+<h3 id="三、进程同步"><a href="#三、进程同步" class="headerlink" title="三、进程同步"></a>三、进程同步</h3><h4 id="一、进程同步的基本概念"><a href="#一、进程同步的基本概念" class="headerlink" title="一、进程同步的基本概念"></a>一、进程同步的基本概念</h4><ol>
 <li><p>同步：</p>
 <ul>
 <li>定义：亦称直接制约关系，是指为完成某种任务而建立的两个或多个进程，这些进程因为需要在某些位置上协调它们的工作次序而等待、传递信息所产生的制约关系。进程间的直接制约关系源于它们之间的相互合作。</li>
@@ -1552,7 +1552,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="二、实现临界区互斥的基本方法"><a href="#二、实现临界区互斥的基本方法" class="headerlink" title="二、实现临界区互斥的基本方法"></a>二、实现临界区互斥的基本方法</h3><ol>
+<h4 id="二、实现临界区互斥的基本方法"><a href="#二、实现临界区互斥的基本方法" class="headerlink" title="二、实现临界区互斥的基本方法"></a>二、实现临界区互斥的基本方法</h4><ol>
 <li><p>软件实现方法：</p>
 <ul>
 <li><p>单标志法：</p>
@@ -1650,7 +1650,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="三、信号量机制"><a href="#三、信号量机制" class="headerlink" title="三、信号量机制"></a>三、信号量机制</h3><ol>
+<h4 id="三、信号量机制"><a href="#三、信号量机制" class="headerlink" title="三、信号量机制"></a>三、信号量机制</h4><ol>
 <li><p>信号量：一个变量，可以是一个整数，也可以是更复杂的记录型变量。可以用一个信号量来表示系统中某种资源的数量。</p>
 </li>
 <li><p>原语：一种特殊的程序段，只能一气呵成，不可被中断。原语是由关中断/开中断指令实现的。</p>
@@ -1731,7 +1731,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="四、生产者消费者问题"><a href="#四、生产者消费者问题" class="headerlink" title="四、生产者消费者问题"></a>四、生产者消费者问题</h3><ol>
+<h4 id="四、生产者消费者问题"><a href="#四、生产者消费者问题" class="headerlink" title="四、生产者消费者问题"></a>四、生产者消费者问题</h4><ol>
 <li><p>问题描述：</p>
 <ul>
 <li>系统中有一组生产者进程和一组消费者进程，生产者进程每次生产一个产品放入缓冲区，消费者进程每次从缓冲区中取出一个产品并使用。</li>
@@ -1758,7 +1758,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="五、多生产者多消费者问题"><a href="#五、多生产者多消费者问题" class="headerlink" title="五、多生产者多消费者问题"></a>五、多生产者多消费者问题</h3><ol>
+<h4 id="五、多生产者多消费者问题"><a href="#五、多生产者多消费者问题" class="headerlink" title="五、多生产者多消费者问题"></a>五、多生产者多消费者问题</h4><ol>
 <li><p>问题描述：桌子上有一个盘子，每次只能向其中放入一个水果。爸爸专向盘子中放苹果，妈妈专向盘子中放橘子，儿子专等着吃盘子中的橘子，女儿专等着吃盘子中的苹果。只有盘子空时，爸爸或妈妈才可向盘子中放一个水果。仅当盘子中有自己需要的水果时，儿子或女儿可以从盘子中取出水果。</p>
 </li>
 <li><p>实现：</p>
@@ -1770,13 +1770,13 @@
 </ul>
 </li>
 </ol>
-<h3 id="六、吸烟者问题"><a href="#六、吸烟者问题" class="headerlink" title="六、吸烟者问题"></a>六、吸烟者问题</h3><ol>
+<h4 id="六、吸烟者问题"><a href="#六、吸烟者问题" class="headerlink" title="六、吸烟者问题"></a>六、吸烟者问题</h4><ol>
 <li><p>问题描述：假设一个系统有三个抽烟者进程和一个供应者进程。每个抽烟者不停地卷烟并抽掉它，但是要卷起并抽掉一支烟，抽烟者需要有三种材料：烟草、纸和胶水。三个抽烟者中，第一个拥有烟草、第二个拥有纸、第三个拥有胶水。供应者进程无限地提供三种材料，供应者每次将两种材料放桌子上，拥有剩下那种材料的抽烟者卷一根烟并抽掉它，并给供应者进程一个信号告诉完成了，供应者就会放另外两种材料在桌上，这个过程一直重复。（让三个抽烟者轮流抽烟）</p>
 </li>
 <li><p>实现：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line">semaphore offer1 = <span class="number">0</span>;</span><br><span class="line">semaphore offer2 = <span class="number">0</span>;</span><br><span class="line">semaphore offer3 = <span class="number">0</span>;</span><br><span class="line">semaphore finish = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">provider()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        <span class="keyword">for</span>(i=<span class="number">0</span>;i&lt;<span class="number">3</span>;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(i%<span class="number">3</span>==<span class="number">0</span>)&#123;</span><br><span class="line">                将组合一放桌上;</span><br><span class="line">                V(offer1);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(i%<span class="number">3</span>==<span class="number">1</span>)&#123;</span><br><span class="line">                将组合二放桌上;</span><br><span class="line">                V(offer2);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                将组合三放桌上;</span><br><span class="line">                V(Offer3);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        p(finish);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smoker1()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        P(offer1);</span><br><span class="line">        从桌上拿走组合一;</span><br><span class="line">        卷烟;</span><br><span class="line">        抽掉;</span><br><span class="line">        V(finish);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smoker2()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        P(offer2);</span><br><span class="line">        从桌上拿走组合二;</span><br><span class="line">        卷烟;</span><br><span class="line">        抽掉;</span><br><span class="line">        V(finish);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">smoker3()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        P(offer3);</span><br><span class="line">        从桌上拿走组合三;</span><br><span class="line">        卷烟;</span><br><span class="line">        抽掉;</span><br><span class="line">        V(finish);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h3 id="七、读者──写者问题"><a href="#七、读者──写者问题" class="headerlink" title="七、读者──写者问题"></a>七、读者──写者问题</h3><ol>
+<h4 id="七、读者──写者问题"><a href="#七、读者──写者问题" class="headerlink" title="七、读者──写者问题"></a>七、读者──写者问题</h4><ol>
 <li><p>问题描述：有读者和写者两组并发进程，共享一个文件。当两个或两个以上的读进程同时访问共享数据时不会产生副作用，但若某个写进程和其他进程（读进程或写进程）同时访问共享数据时则可能导致数据不一致的错误。因此要求：</p>
 <ul>
 <li>允许多个读者可以同时对文件执行读操作</li>
@@ -1796,7 +1796,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="八、哲学家进餐问题"><a href="#八、哲学家进餐问题" class="headerlink" title="八、哲学家进餐问题"></a>八、哲学家进餐问题</h3><ol>
+<h4 id="八、哲学家进餐问题"><a href="#八、哲学家进餐问题" class="headerlink" title="八、哲学家进餐问题"></a>八、哲学家进餐问题</h4><ol>
 <li><p>问题描述：一张圆桌上坐着5名哲学家，每两个哲学家之间的桌上摆一根筷子，桌子的中间是一碗米饭。哲学家们倾注毕生的精力用于思考和进餐，哲学家在思考时，并不影响他人。只有当哲学家饥饿时，才试图拿起左、右两根筷子（一根一根拿起）。如果筷子已在他人手上，则需等待。</p>
 </li>
 <li><p>实现：</p>
@@ -1810,7 +1810,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="九、管程"><a href="#九、管程" class="headerlink" title="九、管程"></a>九、管程</h3><ol>
+<h4 id="九、管程"><a href="#九、管程" class="headerlink" title="九、管程"></a>九、管程</h4><ol>
 <li><p>管程的定义：</p>
 <ul>
 <li>概念：利用共享数据结构抽象地表示系统中的共享资源，而把对该数据结构实施的操作定义为一组过程，这个代表共享资源的数据结构，以及由对该共享数据结构实施操作的一组过程所组成的资源管理程序，叫做管程。</li>
@@ -1834,7 +1834,7 @@
 <li><p>用管程解决生产者消费者问题：</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line">monitor ProducerConsumer</span><br><span class="line">    condition full, empty;         <span class="comment">//条件变量用来实现同步</span></span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>;                 <span class="comment">//缓冲区中的产品数</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">insert</span><span class="params">(Item item)</span>         <span class="comment">//把产品item放入缓冲区</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (count == N)</span><br><span class="line">            wait(full);</span><br><span class="line">        count++;</span><br><span class="line">        insert_item(item);</span><br><span class="line">        <span class="keyword">if</span> (count == <span class="number">1</span>)</span><br><span class="line">            signal(empty);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function">Item <span class="title">remove</span><span class="params">(Item item)</span>         <span class="comment">//从缓冲区中取出一个产品</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (count == <span class="number">0</span>)</span><br><span class="line">            wait(empty);</span><br><span class="line">        count--;</span><br><span class="line">        <span class="keyword">if</span> (count == N - <span class="number">1</span>)</span><br><span class="line">            signal(full);</span><br><span class="line">        <span class="keyword">return</span> remove_item();</span><br><span class="line">    &#125;</span><br><span class="line">end monitor;</span><br><span class="line"></span><br><span class="line">producer()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        item = 生产一个产品;</span><br><span class="line">        ProducerConsumer.insert(item);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">consumer()&#123;</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">        item = ProducerConsumer.remove();</span><br><span class="line">        消费产品item;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<h2 id="四、死锁"><a href="#四、死锁" class="headerlink" title="四、死锁"></a>四、死锁</h2><h3 id="一、死锁的概念"><a href="#一、死锁的概念" class="headerlink" title="一、死锁的概念"></a>一、死锁的概念</h3><ol>
+<h3 id="四、死锁"><a href="#四、死锁" class="headerlink" title="四、死锁"></a>四、死锁</h3><h4 id="一、死锁的概念"><a href="#一、死锁的概念" class="headerlink" title="一、死锁的概念"></a>一、死锁的概念</h4><ol>
 <li><p>定义：在并发环境下，各进程因竞争资源而造成的一种互相等待对方手里的资源，导致各进程都阻塞，无法向前推进的现象。</p>
 </li>
 <li><p>死锁、饥饿、死循环的区别：</p>
@@ -1878,7 +1878,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="二、死锁预防"><a href="#二、死锁预防" class="headerlink" title="二、死锁预防"></a>二、死锁预防</h3><ol>
+<h4 id="二、死锁预防"><a href="#二、死锁预防" class="headerlink" title="二、死锁预防"></a>二、死锁预防</h4><ol>
 <li>破坏互斥条件：<ul>
 <li>互斥条件：只有对必须互斥使用的资源的争抢才会导致死锁。</li>
 <li>方法：把只能互斥使用的资源改造为允许共享使用，则系统不会进入死锁状态。</li>
@@ -1925,7 +1925,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="三、避免死锁"><a href="#三、避免死锁" class="headerlink" title="三、避免死锁"></a>三、避免死锁</h3><ol>
+<h4 id="三、避免死锁"><a href="#三、避免死锁" class="headerlink" title="三、避免死锁"></a>三、避免死锁</h4><ol>
 <li>系统安全状态：<ul>
 <li>安全序列：如果系统按照这种序列分配资源，则每个进程都能顺利完成。只要能找出一个安全序列，系统就是安全状态。<font color=orange>（安全序列可能有多个）</font></li>
 <li>不安全状态：如果分配了资源之后，系统中找不出任何一个安全序列，系统就进入了不安全状态。</li>
@@ -1961,7 +1961,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="四、死锁的检测和解除"><a href="#四、死锁的检测和解除" class="headerlink" title="四、死锁的检测和解除"></a>四、死锁的检测和解除</h3><ol>
+<h4 id="四、死锁的检测和解除"><a href="#四、死锁的检测和解除" class="headerlink" title="四、死锁的检测和解除"></a>四、死锁的检测和解除</h4><ol>
 <li><p>死锁的检测：</p>
 <ul>
 <li><p>资源分配图：</p>
@@ -1996,9 +1996,9 @@
 </ul>
 </li>
 </ol>
-<h1 id="第三章：内存管理"><a href="#第三章：内存管理" class="headerlink" title="第三章：内存管理"></a>第三章：内存管理</h1><h2 id="一、内存管理概念"><a href="#一、内存管理概念" class="headerlink" title="一、内存管理概念"></a>一、内存管理概念</h2><h3 id="一、内存管理的基本原理和要求"><a href="#一、内存管理的基本原理和要求" class="headerlink" title="一、内存管理的基本原理和要求"></a>一、内存管理的基本原理和要求</h3><ol>
+<h2 id="第三章：内存管理"><a href="#第三章：内存管理" class="headerlink" title="第三章：内存管理"></a>第三章：内存管理</h2><h3 id="一、内存管理概念"><a href="#一、内存管理概念" class="headerlink" title="一、内存管理概念"></a>一、内存管理概念</h3><h4 id="一、内存管理的基本原理和要求"><a href="#一、内存管理的基本原理和要求" class="headerlink" title="一、内存管理的基本原理和要求"></a>一、内存管理的基本原理和要求</h4><ol>
 <li>内存管理的功能：<ul>
-<li>内存空间的分配与回收：</li>
+<li>内存空间的分配与回收</li>
 <li>地址转换：逻辑地址转换为物理地址<ul>
 <li>绝对装入：编译时产生绝对地址</li>
 <li>可重定位装入：装入时将逻辑地址转换为物理地址</li>
@@ -2054,7 +2054,7 @@
 </li>
 <li>可重入代码（纯代码）：不能被修改的代码。</li>
 </ol>
-<h3 id="二、连续分配管理方式"><a href="#二、连续分配管理方式" class="headerlink" title="二、连续分配管理方式"></a>二、连续分配管理方式</h3><ol>
+<h4 id="二、连续分配管理方式"><a href="#二、连续分配管理方式" class="headerlink" title="二、连续分配管理方式"></a>二、连续分配管理方式</h4><ol>
 <li>单一连续分配：<ul>
 <li>内存被分为系统区和用户区</li>
 <li>特点：<ul>
@@ -2142,7 +2142,7 @@
 </li>
 <li>如何进行分区的分配与回收？──更新空闲分区表/空闲分区链</li>
 </ul>
-<h3 id="三、非连续分配管理方式"><a href="#三、非连续分配管理方式" class="headerlink" title="三、非连续分配管理方式"></a>三、非连续分配管理方式</h3><ol>
+<h4 id="三、非连续分配管理方式"><a href="#三、非连续分配管理方式" class="headerlink" title="三、非连续分配管理方式"></a>三、非连续分配管理方式</h4><ol>
 <li><p>基本分页存储管理方式：</p>
 <ul>
 <li><p>将内存空间分为一个个大小相等的分区，每个分区就是一个“页框”（页帧=内存快=物理块=物理页=实页=块）。每个页框都有一个编号，即“页框号”，页框号<font color=red>从0开始</font>。</p>
@@ -2365,7 +2365,7 @@
 </ul>
 </li>
 </ol>
-<h2 id="二、虚拟内存管理"><a href="#二、虚拟内存管理" class="headerlink" title="二、虚拟内存管理"></a>二、虚拟内存管理</h2><h3 id="一、虚拟内存的基本概念"><a href="#一、虚拟内存的基本概念" class="headerlink" title="一、虚拟内存的基本概念"></a>一、虚拟内存的基本概念</h3><ol>
+<h3 id="二、虚拟内存管理"><a href="#二、虚拟内存管理" class="headerlink" title="二、虚拟内存管理"></a>二、虚拟内存管理</h3><h4 id="一、虚拟内存的基本概念"><a href="#一、虚拟内存的基本概念" class="headerlink" title="一、虚拟内存的基本概念"></a>一、虚拟内存的基本概念</h4><ol>
 <li>传统存储管理方式：<ul>
 <li>特征：<ul>
 <li>一次性：作业必须一次性全部装入内存后才能开始运行</li>
@@ -2408,7 +2408,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="二、请求分页管理方式"><a href="#二、请求分页管理方式" class="headerlink" title="二、请求分页管理方式"></a>二、请求分页管理方式</h3><ol>
+<h4 id="二、请求分页管理方式"><a href="#二、请求分页管理方式" class="headerlink" title="二、请求分页管理方式"></a>二、请求分页管理方式</h4><ol>
 <li><p>页表机制：页号+内存块号+状态位+访问字段+修改位+外存地址</p>
 <ul>
 <li>状态位：是否已调入内存</li>
@@ -2443,7 +2443,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="三、页面置换算法"><a href="#三、页面置换算法" class="headerlink" title="三、页面置换算法"></a>三、页面置换算法</h3><ol>
+<h4 id="三、页面置换算法"><a href="#三、页面置换算法" class="headerlink" title="三、页面置换算法"></a>三、页面置换算法</h4><ol>
 <li><p>最佳置换算法（OPT）：</p>
 <ul>
 <li>思想：每次选择淘汰的页面将是以后永不使用，或者在最长时间内不再被访问的页面</li>
@@ -2501,7 +2501,7 @@
 </ul>
 </li>
 </ol>
-<h3 id="四、页面分配策略"><a href="#四、页面分配策略" class="headerlink" title="四、页面分配策略"></a>四、页面分配策略</h3><ol>
+<h4 id="四、页面分配策略"><a href="#四、页面分配策略" class="headerlink" title="四、页面分配策略"></a>四、页面分配策略</h4><ol>
 <li>驻留集：<ul>
 <li>定义：指请求分页存储管理中给进程分配的物理块的集合。</li>
 <li>考虑问题：<ul>
@@ -2549,17 +2549,17 @@
 </ul>
 </li>
 </ol>
-<h3 id="五、抖动"><a href="#五、抖动" class="headerlink" title="五、抖动"></a>五、抖动</h3><ol>
+<h4 id="五、抖动"><a href="#五、抖动" class="headerlink" title="五、抖动"></a>五、抖动</h4><ol>
 <li>定义：刚刚换出的页面马上又要换入内存，刚刚换入的页面马上又要换出外存，这种频繁的行为叫抖动，也称颠簸。</li>
 <li>主要原因：进程频繁访问的页面数目高于可用的物理块数。</li>
 </ol>
-<h3 id="六、工作集"><a href="#六、工作集" class="headerlink" title="六、工作集"></a>六、工作集</h3><ol>
+<h4 id="六、工作集"><a href="#六、工作集" class="headerlink" title="六、工作集"></a>六、工作集</h4><ol>
 <li>定义：进程在某段时间间隔内，进程实际访问页面的集合。</li>
 <li>操作系统会根据“窗口尺寸”算出工作集。</li>
 <li>工作集大小可能小于窗口尺寸，实际应用中，操作系统可以统计进程的工作集大小，根据工作集大小给进程分配若干内存块。</li>
 <li>基于局部性原理，进程在一段时间内访问的页面与不久之后会访问的页面是有相关性的。因此，可以根据进程近期访问的页面集合（工作集）来设计一种页面置换算法：选择一个不在工作集中的页面进行淘汰</li>
 </ol>
-<h1 id="第四章：文件管理"><a href="#第四章：文件管理" class="headerlink" title="第四章：文件管理"></a>第四章：文件管理</h1><h2 id="一、文件系统基础"><a href="#一、文件系统基础" class="headerlink" title="一、文件系统基础"></a>一、文件系统基础</h2><ol>
+<h2 id="第四章：文件管理"><a href="#第四章：文件管理" class="headerlink" title="第四章：文件管理"></a>第四章：文件管理</h2><h3 id="一、文件系统基础"><a href="#一、文件系统基础" class="headerlink" title="一、文件系统基础"></a>一、文件系统基础</h3><ol>
 <li></li>
 </ol>
 
@@ -2809,7 +2809,7 @@
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%EF%BC%9A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0"><span class="toc-text">第一章：计算机系统概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、操作系统的基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、操作系统的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%89%B9%E5%BE%81"><span class="toc-text">二、操作系统的特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%9B%AE%E7%9A%84%E5%92%8C%E5%8A%9F%E8%83%BD"><span class="toc-text">三、操作系统的目的和功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B3%A8"><span class="toc-text">四、注</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8F%91%E5%B1%95%E4%B8%8E%E5%88%86%E7%B1%BB"><span class="toc-text">二、操作系统的发展与分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%89%8B%E5%B7%A5%E6%93%8D%E4%BD%9C%E9%98%B6%E6%AE%B5"><span class="toc-text">一、手工操作阶段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%89%B9%E5%A4%84%E7%90%86%E9%98%B6%E6%AE%B5"><span class="toc-text">二、批处理阶段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">三、分时操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">四、实时操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">五、网络操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%88%86%E5%B8%83%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">六、分布式操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E4%B8%AA%E4%BA%BA%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">七、个人计算机操作系统</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83"><span class="toc-text">三、操作系统的运行环境</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6"><span class="toc-text">一、操作系统的运行机制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8"><span class="toc-text">二、中断和异常</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8"><span class="toc-text">三、系统调用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-text">四、操作系统的体系结构</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86"><span class="toc-text">第二章：进程管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B"><span class="toc-text">一、进程和线程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%89%B9%E5%BE%81"><span class="toc-text">一、进程的概念和特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9B%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%E4%B8%8E%E8%BD%AC%E6%8D%A2"><span class="toc-text">二、进程的状态与转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6"><span class="toc-text">三、进程控制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1"><span class="toc-text">四、进程通信</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BA%BF%E7%A8%8B%E6%A6%82%E5%BF%B5%E5%92%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B"><span class="toc-text">五、线程概念和多线程模型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%A4%84%E7%90%86%E6%9C%BA%E8%B0%83%E5%BA%A6"><span class="toc-text">二、处理机调度</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%B0%83%E5%BA%A6%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、调度的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6%E7%9A%84%E6%97%B6%E6%9C%BA%E3%80%81%E5%88%87%E6%8D%A2%E5%92%8C%E8%BF%87%E7%A8%8B"><span class="toc-text">二、进程调度的时机、切换和过程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87"><span class="toc-text">三、调度算法的评价指标</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95"><span class="toc-text">四、调度算法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5"><span class="toc-text">三、进程同步</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、进程同步的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AE%9E%E7%8E%B0%E4%B8%B4%E7%95%8C%E5%8C%BA%E4%BA%92%E6%96%A5%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95"><span class="toc-text">二、实现临界区互斥的基本方法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%BF%A1%E5%8F%B7%E9%87%8F%E6%9C%BA%E5%88%B6"><span class="toc-text">三、信号量机制</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">四、生产者消费者问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%A4%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%A4%9A%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">五、多生产者多消费者问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%90%B8%E7%83%9F%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">六、吸烟者问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E8%AF%BB%E8%80%85%E2%94%80%E2%94%80%E5%86%99%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">七、读者──写者问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E5%93%B2%E5%AD%A6%E5%AE%B6%E8%BF%9B%E9%A4%90%E9%97%AE%E9%A2%98"><span class="toc-text">八、哲学家进餐问题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E7%AE%A1%E7%A8%8B"><span class="toc-text">九、管程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%AD%BB%E9%94%81"><span class="toc-text">四、死锁</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%AD%BB%E9%94%81%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、死锁的概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%AD%BB%E9%94%81%E9%A2%84%E9%98%B2"><span class="toc-text">二、死锁预防</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81"><span class="toc-text">三、避免死锁</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%AD%BB%E9%94%81%E7%9A%84%E6%A3%80%E6%B5%8B%E5%92%8C%E8%A7%A3%E9%99%A4"><span class="toc-text">四、死锁的检测和解除</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E6%A6%82%E5%BF%B5"><span class="toc-text">一、内存管理概念</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%92%8C%E8%A6%81%E6%B1%82"><span class="toc-text">一、内存管理的基本原理和要求</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9E%E7%BB%AD%E5%88%86%E9%85%8D%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">二、连续分配管理方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%9D%9E%E8%BF%9E%E7%BB%AD%E5%88%86%E9%85%8D%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">三、非连续分配管理方式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86"><span class="toc-text">二、虚拟内存管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、虚拟内存的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%AF%B7%E6%B1%82%E5%88%86%E9%A1%B5%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">二、请求分页管理方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95"><span class="toc-text">三、页面置换算法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%A1%B5%E9%9D%A2%E5%88%86%E9%85%8D%E7%AD%96%E7%95%A5"><span class="toc-text">四、页面分配策略</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%8A%96%E5%8A%A8"><span class="toc-text">五、抖动</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%B7%A5%E4%BD%9C%E9%9B%86"><span class="toc-text">六、工作集</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80"><span class="toc-text">一、文件系统基础</span></a></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%EF%BC%9A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0"><span class="toc-text">第一章：计算机系统概述</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、操作系统的基本概念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、操作系统的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%89%B9%E5%BE%81"><span class="toc-text">二、操作系统的特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%9B%AE%E7%9A%84%E5%92%8C%E5%8A%9F%E8%83%BD"><span class="toc-text">三、操作系统的目的和功能</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%B3%A8"><span class="toc-text">四、注</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%8F%91%E5%B1%95%E4%B8%8E%E5%88%86%E7%B1%BB"><span class="toc-text">二、操作系统的发展与分类</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%89%8B%E5%B7%A5%E6%93%8D%E4%BD%9C%E9%98%B6%E6%AE%B5"><span class="toc-text">一、手工操作阶段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%89%B9%E5%A4%84%E7%90%86%E9%98%B6%E6%AE%B5"><span class="toc-text">二、批处理阶段</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%88%86%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">三、分时操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%AE%9E%E6%97%B6%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">四、实时操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BD%91%E7%BB%9C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">五、网络操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%88%86%E5%B8%83%E5%BC%8F%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">六、分布式操作系统</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E4%B8%AA%E4%BA%BA%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">七、个人计算机操作系统</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83"><span class="toc-text">三、操作系统的运行环境</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E8%BF%90%E8%A1%8C%E6%9C%BA%E5%88%B6"><span class="toc-text">一、操作系统的运行机制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8"><span class="toc-text">二、中断和异常</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8"><span class="toc-text">三、系统调用</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84"><span class="toc-text">四、操作系统的体系结构</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%EF%BC%9A%E8%BF%9B%E7%A8%8B%E7%AE%A1%E7%90%86"><span class="toc-text">第二章：进程管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E5%92%8C%E7%BA%BF%E7%A8%8B"><span class="toc-text">一、进程和线程</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E7%9A%84%E6%A6%82%E5%BF%B5%E5%92%8C%E7%89%B9%E5%BE%81"><span class="toc-text">一、进程的概念和特征</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9B%E7%A8%8B%E7%9A%84%E7%8A%B6%E6%80%81%E4%B8%8E%E8%BD%AC%E6%8D%A2"><span class="toc-text">二、进程的状态与转换</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%BF%9B%E7%A8%8B%E6%8E%A7%E5%88%B6"><span class="toc-text">三、进程控制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%BF%9B%E7%A8%8B%E9%80%9A%E4%BF%A1"><span class="toc-text">四、进程通信</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E7%BA%BF%E7%A8%8B%E6%A6%82%E5%BF%B5%E5%92%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B%E6%A8%A1%E5%9E%8B"><span class="toc-text">五、线程概念和多线程模型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%A4%84%E7%90%86%E6%9C%BA%E8%B0%83%E5%BA%A6"><span class="toc-text">二、处理机调度</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%B0%83%E5%BA%A6%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、调度的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9B%E7%A8%8B%E8%B0%83%E5%BA%A6%E7%9A%84%E6%97%B6%E6%9C%BA%E3%80%81%E5%88%87%E6%8D%A2%E5%92%8C%E8%BF%87%E7%A8%8B"><span class="toc-text">二、进程调度的时机、切换和过程</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95%E7%9A%84%E8%AF%84%E4%BB%B7%E6%8C%87%E6%A0%87"><span class="toc-text">三、调度算法的评价指标</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E8%B0%83%E5%BA%A6%E7%AE%97%E6%B3%95"><span class="toc-text">四、调度算法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5"><span class="toc-text">三、进程同步</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%BF%9B%E7%A8%8B%E5%90%8C%E6%AD%A5%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、进程同步的基本概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AE%9E%E7%8E%B0%E4%B8%B4%E7%95%8C%E5%8C%BA%E4%BA%92%E6%96%A5%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E6%B3%95"><span class="toc-text">二、实现临界区互斥的基本方法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E4%BF%A1%E5%8F%B7%E9%87%8F%E6%9C%BA%E5%88%B6"><span class="toc-text">三、信号量机制</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E7%94%9F%E4%BA%A7%E8%80%85%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">四、生产者消费者问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%A4%9A%E7%94%9F%E4%BA%A7%E8%80%85%E5%A4%9A%E6%B6%88%E8%B4%B9%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">五、多生产者多消费者问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%90%B8%E7%83%9F%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">六、吸烟者问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E8%AF%BB%E8%80%85%E2%94%80%E2%94%80%E5%86%99%E8%80%85%E9%97%AE%E9%A2%98"><span class="toc-text">七、读者──写者问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E5%93%B2%E5%AD%A6%E5%AE%B6%E8%BF%9B%E9%A4%90%E9%97%AE%E9%A2%98"><span class="toc-text">八、哲学家进餐问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E7%AE%A1%E7%A8%8B"><span class="toc-text">九、管程</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%AD%BB%E9%94%81"><span class="toc-text">四、死锁</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%AD%BB%E9%94%81%E7%9A%84%E6%A6%82%E5%BF%B5"><span class="toc-text">一、死锁的概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%AD%BB%E9%94%81%E9%A2%84%E9%98%B2"><span class="toc-text">二、死锁预防</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%81%BF%E5%85%8D%E6%AD%BB%E9%94%81"><span class="toc-text">三、避免死锁</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%AD%BB%E9%94%81%E7%9A%84%E6%A3%80%E6%B5%8B%E5%92%8C%E8%A7%A3%E9%99%A4"><span class="toc-text">四、死锁的检测和解除</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E7%AB%A0%EF%BC%9A%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86"><span class="toc-text">第三章：内存管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E6%A6%82%E5%BF%B5"><span class="toc-text">一、内存管理概念</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86%E7%9A%84%E5%9F%BA%E6%9C%AC%E5%8E%9F%E7%90%86%E5%92%8C%E8%A6%81%E6%B1%82"><span class="toc-text">一、内存管理的基本原理和要求</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%BF%9E%E7%BB%AD%E5%88%86%E9%85%8D%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">二、连续分配管理方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%9D%9E%E8%BF%9E%E7%BB%AD%E5%88%86%E9%85%8D%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">三、非连续分配管理方式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86"><span class="toc-text">二、虚拟内存管理</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E8%99%9A%E6%8B%9F%E5%86%85%E5%AD%98%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-text">一、虚拟内存的基本概念</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E8%AF%B7%E6%B1%82%E5%88%86%E9%A1%B5%E7%AE%A1%E7%90%86%E6%96%B9%E5%BC%8F"><span class="toc-text">二、请求分页管理方式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E9%A1%B5%E9%9D%A2%E7%BD%AE%E6%8D%A2%E7%AE%97%E6%B3%95"><span class="toc-text">三、页面置换算法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%A1%B5%E9%9D%A2%E5%88%86%E9%85%8D%E7%AD%96%E7%95%A5"><span class="toc-text">四、页面分配策略</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E6%8A%96%E5%8A%A8"><span class="toc-text">五、抖动</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E5%B7%A5%E4%BD%9C%E9%9B%86"><span class="toc-text">六、工作集</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E7%AB%A0%EF%BC%9A%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86"><span class="toc-text">第四章：文件管理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80"><span class="toc-text">一、文件系统基础</span></a></li></ol></li></ol>
     </div>
   </section>
 
